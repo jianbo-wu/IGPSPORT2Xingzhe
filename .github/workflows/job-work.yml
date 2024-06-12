@@ -29,7 +29,6 @@ jobs:
         GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
       run: |
         python ActivitySync.py
-
     - name: run srcipt1
       env:
         USERNAME: ${{ secrets.USERNAME1 }}
